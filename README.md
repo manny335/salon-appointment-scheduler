@@ -1,4 +1,4 @@
 # salon-appointment-scheduler
-This project uses Bash scripting, PostgreSQL, and Git to create a number guessing game that runs in the terminal and saves user information.
-The script asks the user to input their name and then checks if the name if stored and does so if it is not. This information is used to track the user's
-progress and informs them of the best number of guesses they've made.
+This project is interactive Bash program that uses PostgreSQL to track the customers and appointments for your salon.
+It asks the user for the type of service that they would like. It then checks the databse if the customer already exists and creates a new entry if
+they don't. The bash program then porceeds to ask the user for the time they wouuld like the service and books them if a spot is available.
